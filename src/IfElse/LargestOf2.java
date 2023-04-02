@@ -7,12 +7,11 @@ public class LargestOf2 {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
         int b = input.nextInt();
-        if (a > b) {
+        if (a > b)
             System.out.println(a + " is largest");
-        } else if (b > a) {
+         else if (b > a)
             System.out.println(b + " is largest");
-        } else {
+         else
             System.out.println("both are equal");
-        }
     }
 }

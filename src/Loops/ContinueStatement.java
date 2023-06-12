@@ -6,7 +6,6 @@ public class ContinueStatement {
             if( i==3) {
                 continue;
             }
-            System.out.println(i);
         }
     }
 }

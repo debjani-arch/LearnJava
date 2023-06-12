@@ -8,5 +8,6 @@ public class PrintReverseOfaNumber {
             System.out.print(lastDigit);
             n = n/10;
         }
+        System.out.println();
     }
 }
